@@ -10,9 +10,10 @@
     "start": "node server/server.js"
   },
   "dependencies": {
-    "concurrently": "^8.2.0"
+    "express": "^5.1.0"
   },
   "devDependencies": {
+    "concurrently": "^9.2.0",
     "nodemon": "^2.0.22"
   }
 }
