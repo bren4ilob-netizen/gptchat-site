@@ -1,19 +1,8 @@
 {
-  "name": "chat-multiregion-site",
+  "name": "chatgpt-site",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "concurrently \"npm:dev-client\" \"npm:dev-server\"",
-    "dev-client": "cd client && npm run dev",
-    "dev-server": "cd server && nodemon server.js",
-    "build": "cd client && npm run build",
-    "start": "node server/server.js"
-  },
+  "type": "module",
   "dependencies": {
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "concurrently": "^9.2.0",
-    "nodemon": "^2.0.22"
+    "openai": "^4.0.0"
   }
 }
